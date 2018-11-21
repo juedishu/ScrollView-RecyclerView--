@@ -10,19 +10,18 @@ items that is outside of device viewport when it loads initially.
 Wrapping "RecyclerView" with "RelativeLayout" fixes the issue on Marshmallow devices.
 -->
 
-<RelativeLayout
-android:layout_width="match_parent"
-android:layout_height="wrap_content"
-android:descendantFocusability="blocksDescendants">
+<RelativeLayout<br>
+android:layout_width="match_parent"<br>
+android:layout_height="wrap_content"<br>
+android:descendantFocusability="blocksDescendants"><br>
 
-<android.support.v7.widget.RecyclerView
-android:id="@+id/my_recycler_view"
-android:layout_width="match_parent"
-android:layout_height="wrap_content"
-tools:listitem="@layout/row_list_item">
+<android.support.v7.widget.RecyclerView<br>
+android:id="@+id/my_recycler_view"<br>
+android:layout_width="match_parent"<br>
+android:layout_height="wrap_content"<br>
+tools:listitem="@layout/row_list_item"><br>
 
-</android.support.v7.widget.RecyclerView>
-
+</android.support.v7.widget.RecyclerView><br>
 </RelativeLayout>
 
 
