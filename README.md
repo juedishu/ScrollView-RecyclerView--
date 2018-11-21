@@ -1,6 +1,6 @@
-##描述：RecyclerView嵌套在ScrollView中，RecyclerView高度不能正常显示问题？
+#描述：RecyclerView嵌套在ScrollView中，RecyclerView高度不能正常显示问题？
 
-##把RecyclerView用RelativeLayout包裹起来；
+#把RecyclerView用RelativeLayout包裹起来；
 
 <!-- DEV NOTE: Outer wrapper relative layout is added intentionally to address issue
 that only happens on Marshmallow & Nougat devices (API 23 & 24).
