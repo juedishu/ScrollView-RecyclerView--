@@ -9,6 +9,7 @@ occupy the height of all the elements added to it via adapter. The result is cut
 items that is outside of device viewport when it loads initially.
 Wrapping "RecyclerView" with "RelativeLayout" fixes the issue on Marshmallow devices.
 -->
+The reason for above issue is any view which has it's scroll(ListView, GridView, RecyclerView) failed to calculate it's height when add as a child in another view has scroll. So overriding its onMeasure method will solve the issue.
 
 <RelativeLayout<br>
 android:layout_width="match_parent"<br>
